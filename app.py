@@ -49,4 +49,4 @@ def inicio():
 
 # Iniciar la aplicación Flask
 if __name__ == '__main__':
-    app.run(debug=True, port=5001)  # Cambiar el puerto a 5001
+    app.run(debug=True, port=5001, host='0.0.0.0')  # Cambiar el puerto a 5001 y permitir conexiones externas
